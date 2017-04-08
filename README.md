@@ -1,6 +1,12 @@
 # map.sass
 
-Functions for Sass map
+Functions for Sass map.
+
+## Install
+
+```
+yarn add map.sass
+```
 
 ## Usage Example
 
