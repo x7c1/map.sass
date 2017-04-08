@@ -1,0 +1,13 @@
+
+@function map-access($map, $keys...) {
+  $value: $map;
+  @each $key in $keys {
+    @if not map_has_key($value, $key){
+      @error "[#{$key}] not found. correct keys are [#{map_keys($value)}]";
+    }
+    $value: map-get($value, $key);
+    @if type-of($value) != map { @return $value; }
+  }
+  @return $value;
+}
+

@@ -1,0 +1,27 @@
+{
+  "name": "map.sass",
+  "description": "functions for sass map",
+  "version": "0.0.5",
+  "author": "x7c1",
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "map-access.scss"
+  ],
+  "homepage": "https://github.com/x7c1/map.sass",
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "map"
+  ],
+  "license": "MIT",
+  "main": "map-access.scss",
+  "repository": "https://github.com/x7c1/map.sass",
+  "scripts": {
+  }
+}
+
