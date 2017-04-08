@@ -12,7 +12,7 @@ yarn add map.sass
 
 ### Defining a color palettes
 
-By using a map-access function like following `my-color-palettes.scss`.
+By using a map-access function like following `my-color-palettes.scss` :
 
 ```scss
 @import '~map.sass/map-access.scss';
