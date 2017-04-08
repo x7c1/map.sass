@@ -41,7 +41,7 @@ $color-palettes: (
   color: my-palette(error, fg);
   background-color: my-palette(error, bg);
 
-  // you can also access to any nested map
+  // you can also access to any level of nested map
   a { color: my-palette(anchor, base, normal); }
   a:hover { color: my-palette(anchor, base, hover); }
 }
